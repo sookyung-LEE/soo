@@ -1,0 +1,44 @@
+<a id="create-kakao-link-btn" href="javascript:;">
+    <img src="https://postfiles.pstatic.net/MjAyMzAzMDRfOTQg/MDAxNjc3ODU3NTU2ODgx.Q5_05N-FoyUMNmoIUDVD47-10JT7YAaL8a3R72eKkpog.F_fVQCDLgQXgOT03ac8jzbSJP_cNFF9Ci0mlwQmY-8og.PNG.sudesign_dreamer/%EC%B9%B4%ED%86%A1%EB%A7%81%ED%81%AC.png?type=w773"/>
+</a>
+
+<script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+<script type="text/javascript">
+    Kakao.init('d1f4c50fc1a1b7da30d1d4276d430f2d
+')
+    Kakao.Link.createDefaultButton({
+      container: '#create-kakao-link-btn',
+      objectType: 'feed',
+      content: {
+        title: '초대합니다♡',
+        description: '수경❤️영균 결혼합니다.',
+        imageUrl:
+          'https://postfiles.pstatic.net/MjAyMzAzMDRfOTQg/MDAxNjc3ODU3NTU2ODgx.Q5_05N-FoyUMNmoIUDVD47-10JT7YAaL8a3R72eKkpog.F_fVQCDLgQXgOT03ac8jzbSJP_cNFF9Ci0mlwQmY-8og.PNG.sudesign_dreamer/%EC%B9%B4%ED%86%A1%EB%A7%81%ED%81%AC.png?type=w773',
+        link: {
+          mobileWebUrl: 'https://sooyoung1224.imweb.me',
+          webUrl: 'https://sooyoung1224.imweb.me',
+        },
+      },
+      social: {
+        likeCount: 200,
+        commentCount: 77,
+        sharedCount: 777,
+      },
+      buttons: [
+        {
+          title: '모바일 청첩장 보기',
+          link: {
+            mobileWebUrl: 'https://sooyoung1224.imweb.me',
+            webUrl: 'https://sooyoung1224.imweb.me',
+          },
+        },
+        {
+          title: '참석 여부 작성하기',
+          link: {
+            mobileWebUrl: 'https://naver.me/x7rACvW4',
+            webUrl: 'https://naver.me/x7rACvW4',
+          },
+        },
+      ],
+    })
+</script>
